@@ -4,9 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel Relax: A clean bed for a tired soul.</title>
 </head>
 <body>
-    <h1>my 1st website</h1>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/logo.png" alt="Hotel Relax">
+            
+        </div>
+        
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+
+    </nav>
+   <section id="home">
+        <h1 class="h-primary">Welcome to Hotel Relax</h1><br>
+        <p>All rooms have a large marble bathroom, a double bed, air conditioning, an additional work area with free internet access.</p><br>
+        <button class="btn">Booking Now</button>
+   </section>
+
+   <section id="services-container">
+    <h1 class="h-primary center">Our Services</h1>
+    <div id="services">
+        <div class="box">
+            <img src="pool.jpg" alt="">
+            <h2 class="h-secondary center">Swimming Pool</h2>
+            <p class="center">Hotel Relax's swimming pool has a perfect ventilation system, strict water quality control, and natural lighting that ensures a relaxing atmosphere.
+                Enjoy swimming at Hotel Relax's indoor pool regardless of the weather.</p>
+        </div>
+
+        <div class="box">
+            <img src="gym.jpg" alt="">
+            <h2 class="h-secondary center">Gymnasium</h2>
+            <p class="center"> Fully equipped gymnasium perfectly fit for the health enthusiastic guests. The gymnasium houses everything from the Treadmills, Cross Trainer, Cable Crossover and Smith machine to free weights. An Instructor is available..</p>
+        </div>
+
+        <div class="box">
+            <img src="bkfst.jpg" alt="">
+            <h2 class="h-secondary center">Buffet Breakfast</h2>
+            <p class="center">You can enjoy a buffet breakfast of wholesome, good quality food which will give you a nutritious boost, to enjoy your day outdoors with just the right amount of energy.</p>
+        </div>
+    </div>
+   </section>
+
+   <section id="client-section">
+   <h1 class="h-primary center">Our Clients</h1>
+   <div id="clients">
+    <div class="client-item">
+        <img src="hp.png" alt="Our Client">
+    </div>
+
+    <div class="client-item">
+        <img src="samsung.png" alt="Our Client">
+    </div>
+
+    <div class="client-item">
+        <img src="microsoft.png" alt="Our Client">
+    </div>
+   </div>
+   </section>
+
+   <section id="contact">
+    <h1 class="h-primary center">Contact Us</h1>
+    <div id="contact-box">
+        <form action="">
+            <div class="form-group">
+                <label for="for name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" autofocus>
+            </div>
+
+            <div class="form-group">
+                <label for="for email">Email:</label>
+                <input type="email" name="name" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="for phone">Phone Number:</label>
+                <input type="phone number" name="name" id="phone" placeholder="Enter your phone number">
+            </div>
+
+            <div class="form-group">
+                <label for="for message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <button style="padding: 5px; font-size: 1.5rem; ">Submit</button>
+        </form>
+    </div>
+   </section>
+
+   <footer>
+    <div class="center">
+        Copyright &copy; www.hotelrelax.com. All rights reserved!
+    </div>
+   </footer>
 </body>
 </html>
